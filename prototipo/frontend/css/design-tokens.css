@@ -1,0 +1,66 @@
+/* ==========================================================================
+   DESIGN TOKENS - ENTRE COPAS
+   Contrato visual derivado de DESIGN.md y PRD.md
+   ========================================================================== */
+
+:root {
+  /* Paleta de Color Curada */
+  --color-primary: #58111A;        /* Borgoña / Vino Noble */
+  --color-primary-hover: #430c13;
+  --color-primary-light: #f5e8ea;
+  
+  --color-secondary: #D97706;      /* Ámbar Dorado / Cerveza Artesanal */
+  --color-secondary-hover: #b45309;
+  --color-secondary-light: #fef3c7;
+
+  --color-bg: #FDFBF7;             /* Pergamino Cálido / Marfil */
+  --color-surface: #FFFFFF;        /* Blanco Puro */
+  --color-surface-subtle: #F7F5F0;
+  
+  --color-border: #E7E2DA;         /* Bordes suaves y delimitadores */
+  --color-border-hover: #d2cbbf;
+
+  --color-text: #1F2937;           /* Gris Pizarra Oscuro */
+  --color-text-muted: #6B7280;     /* Gris Muted */
+  --color-text-light: #9CA3AF;
+
+  /* Estados Funcionales Semánticos */
+  --color-success: #15803D;
+  --color-success-bg: #DCFCE7;
+  --color-warning: #B45309;
+  --color-warning-bg: #FEF3C7;
+  --color-danger: #B91C1C;
+  --color-danger-bg: #FEE2E2;
+
+  /* Tipografía */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+
+  /* Espaciado Modular */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Radios de Curvatura */
+  --radius-sm: 6px;
+  --radius-md: 8px;    /* Inputs y botones */
+  --radius-lg: 12px;   /* Tarjetas y modales */
+  --radius-xl: 16px;
+  --radius-full: 9999px; /* Badges y pills */
+
+  /* Sombras Tácticas Cálidas */
+  --shadow-sm: 0 2px 4px rgba(88, 17, 26, 0.04);
+  --shadow-md: 0 4px 12px rgba(88, 17, 26, 0.06);
+  --shadow-lg: 0 8px 24px rgba(88, 17, 26, 0.10);
+
+  /* Área táctil mínima */
+  --touch-min: 44px;
+
+  /* Transiciones */
+  --transition-fast: 200ms ease-in-out;
+}

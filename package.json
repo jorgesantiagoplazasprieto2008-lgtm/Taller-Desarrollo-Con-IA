@@ -1,0 +1,10 @@
+{
+  "name": "entrecopas-monorepo",
+  "version": "1.0.0",
+  "description": "Entre Copas - Plataforma de gestión, trazabilidad y comercialización de bebidas artesanales",
+  "scripts": {
+    "start": "npm start --prefix prototipo",
+    "dev": "npm run dev --prefix prototipo",
+    "test": "npm test --prefix prototipo"
+  }
+}

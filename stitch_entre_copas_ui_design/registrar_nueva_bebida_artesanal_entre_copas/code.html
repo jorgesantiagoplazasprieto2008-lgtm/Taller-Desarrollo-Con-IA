@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-container":"#45a75f","on-primary":"#ffffff","secondary-fixed":"#ffdcc3","inverse-on-surface":"#eaf1ff","inverse-surface":"#27313f","on-tertiary-fixed":"#00210a","on-secondary-fixed":"#2f1500","on-tertiary":"#ffffff","surface-container-highest":"#d9e3f6","outline-variant":"#dac0c0","primary-fixed-dim":"#ffb3b4","tertiary-container":"#003514","tertiary-fixed-dim":"#79db8d","outline":"#877272","on-error-container":"#93000a","on-secondary-container":"#663500","secondary-fixed-dim":"#ffb77d","primary":"#390009","surface-dim":"#d0dbed","tertiary-fixed":"#95f8a7","surface":"#f8f9ff","on-secondary":"#ffffff","on-tertiary-fixed-variant":"#005323","surface-variant":"#d9e3f6","surface-container-low":"#eff4ff","surface-container-lowest":"#ffffff","on-error":"#ffffff","on-surface":"#121c2a","on-background":"#121c2a","primary-container":"#58111a","on-surface-variant":"#554242","secondary":"#904d00","on-primary-container":"#db767b","primary-fixed":"#ffdada","surface-container":"#e6eeff","tertiary":"#001e08","secondary-container":"#fe932c","surface-bright":"#f8f9ff","inverse-primary":"#ffb3b4","error-container":"#ffdad6","surface-container-high":"#dee9fc","background":"#f8f9ff","on-secondary-fixed-variant":"#6e3900","on-primary-fixed-variant":"#7b2c32","on-primary-fixed":"#40000b","error":"#ba1a1a","surface-tint":"#994348"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"touch-min":"44px","space-2":"16px","space-4":"32px","space-6":"48px","space-3":"24px","space-1":"8px","gutter-desktop":"24px","gutter-mobile":"16px","space-05":"4px","max-width":"1280px"},"fontFamily":{"body-md":["Inter"],"display-lg":["Playfair Display"],"body-lg":["Inter"],"headline-md":["Playfair Display"],"headline-lg":["Playfair Display"],"label-md":["Inter"],"headline-sm":["Playfair Display"],"display-lg-mobile":["Playfair Display"],"title-md":["Inter"],"headline-lg-mobile":["Playfair Display"],"code-batch":["Inter"]},"fontSize":{"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"600"}],"code-batch":["13px",{"lineHeight":"18px","letterSpacing":"0.06em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(88,17,26,0.05)] z-50 flex flex-col justify-between pt-space-3 pb-space-3"><div class="flex flex-col"><div class="px-space-3 pb-space-3 flex items-center gap-space-1"><img alt="Brand logo. - Primary color: #58111a
+- Font: playfairDisplay
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1ULNtAGrJ1VbP3hA4uxBFYdl1Lei3a5gUQ_8GGWWFBGH0Pqlym8KAJNBeS-xZ9rDLIWsPh27m4m3rZNM2TqicABFplMaFriYYTqfMKqL0KOYBHAkiAQmAdfliF2-YKzwIizDcdev7Fv9MB4YLjQ5RY5Yj5mr9skEZ625gBHair_gHet9z0vAUfRaHJo9tc6jaWt9fYu_1ZgIrDTgLrMEg61M60E3l_Pk93yc-2uZwZZzCahMLzbLVaO6LYL"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Entre Copas</span><span class="font-label-md text-label-md text-secondary uppercase tracking-wider">Panel Productor</span></div></div><div class="px-space-3 pt-space-2 pb-space-2"><div class="bg-surface-container-low rounded-lg p-space-2 flex flex-col gap-space-05"><div class="flex items-center justify-between"><span class="font-title-md text-title-md text-on-surface truncate">San Gabriel</span><span class="flex items-center gap-1 font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed/30 px-2 py-0.5 rounded-full"><span class="material-symbols-outlined text-[14px]">verified</span>Verificado</span></div><span class="font-label-md text-label-md text-on-surface-variant flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">location_on</span>Villa de Leyva, Boyacá</span></div></div><nav class="flex flex-col px-space-2 pt-space-2 gap-space-05" data-active-classes="bg-primary-container text-on-primary font-title-md rounded-lg shadow-sm"><a class="min-h-touch-min flex items-center px-space-2 py-space-1 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="resumen" href="#"><span class="material-symbols-outlined mr-space-1 text-[20px]">dashboard</span><span class="font-title-md text-title-md">Resumen</span></a><a class="min-h-touch-min flex items-center px-space-2 py-space-1 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="mis-bebidas" href="#"><span class="material-symbols-outlined mr-space-1 text-[20px]">liquor</span><span class="font-title-md text-title-md">Mis Bebidas</span></a><a aria-current="page" class="min-h-touch-min flex items-center px-space-2 py-space-1 transition-colors bg-primary-container text-on-primary font-title-md rounded-lg shadow-sm" data-path="lotes-y-trazabilidad" href="#"><span class="material-symbols-outlined mr-space-1 text-[20px]">qr_code_2</span><span class="font-title-md text-title-md">Lotes &amp; Trazabilidad</span></a><a class="min-h-touch-min flex items-center px-space-2 py-space-1 rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="finanzas-y-mermas" href="#"><span class="material-symbols-outlined mr-space-1 text-[20px]">analytics</span><span class="font-title-md text-title-md">Finanzas &amp; Mermas</span></a></nav></div><div class="px-space-2 flex flex-col gap-space-1"><a class="min-h-touch-min flex items-center justify-between px-space-2 py-space-1 rounded-lg text-secondary hover:bg-secondary-fixed/30 hover:text-on-secondary-fixed transition-colors font-title-md text-title-md" data-path="catalogo-publico" href="#" target="_blank"><span class="flex items-center gap-space-1"><span class="material-symbols-outlined text-[20px]">storefront</span>Catálogo Público</span><span class="material-symbols-outlined text-[18px]">open_in_new</span></a><div class="p-space-2 bg-surface-container-lowest rounded-lg shadow-[0_1px_4px_rgba(88,17,26,0.04)] flex items-center justify-between"><div class="flex items-center gap-space-1"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface">Bodega San Gabriel</span><span class="font-code-batch text-code-batch text-on-surface-variant">Maestro Enólogo</span></div></div><a class="min-h-touch-min min-w-touch-min flex items-center justify-center text-on-surface-variant hover:text-error hover:bg-error-container/20 rounded-lg transition-colors" data-path="cerrar-sesion" href="#" title="Cerrar sesión"><span class="material-symbols-outlined text-[20px]">logout</span></a></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(88,17,26,0.03)] z-40 flex items-center justify-between px-space-4"><div class="flex items-center gap-space-2"><img alt="Brand logo. - Primary color: #58111a
+- Font: playfairDisplay
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1ULNtAGrJ1VbP3hA4uxBFYdl1Lei3a5gUQ_8GGWWFBGH0Pqlym8KAJNBeS-xZ9rDLIWsPh27m4m3rZNM2TqicABFplMaFriYYTqfMKqL0KOYBHAkiAQmAdfliF2-YKzwIizDcdev7Fv9MB4YLjQ5RY5Yj5mr9skEZ625gBHair_gHet9z0vAUfRaHJo9tc6jaWt9fYu_1ZgIrDTgLrMEg61M60E3l_Pk93yc-2uZwZZzCahMLzbLVaO6LYL"/><span class="font-headline-sm text-headline-sm text-primary">Panel de Gestión Artesanal</span><div class="hidden md:flex items-center gap-2 pl-space-2"><span class="h-2 w-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="font-code-batch text-code-batch text-on-surface-variant">Nodo Boyacá: Activo</span></div></div><div class="flex items-center gap-space-2"><div class="hidden lg:flex items-center gap-space-1 bg-surface-container-low px-space-2 py-1 rounded-full"><span class="material-symbols-outlined text-secondary text-[18px]">workspace_premium</span><span class="font-title-md text-title-md text-on-surface">Bodega Artesanal San Gabriel</span><span class="text-outline font-label-md text-label-md">• Villa de Leyva</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 min-h-[calc(100vh-64px)] w-full px-space-4 py-space-4 bg-surface"><div class="flex flex-col w-full">
+<!-- Dynamic Styles for Custom Interactive States without global pollution -->
+<style>
+    .glass-preview-sheen {
+      background: linear-gradient(135deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.2) 100%);
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+<!-- Top Breadcrumb & Section Identification -->
+<div class="flex flex-col gap-space-1 mb-space-4">
+<div class="flex items-center justify-between flex-wrap gap-space-1">
+<a class="group inline-flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" data-path="mis-bebidas" href="#">
+<span class="material-symbols-outlined text-[18px] group-hover:-translate-x-1 transition-transform">arrow_back</span>
+<span>Volver al listado de productos</span>
+</a>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1 font-label-md text-label-md uppercase tracking-wider text-secondary px-3 py-1 rounded-full bg-secondary-fixed/30">
+<span class="material-symbols-outlined text-[15px]">verified</span>
+          Catálogo de Productor · Nuevo Registro
+        </span>
+<span class="hidden sm:inline-flex items-center gap-1 font-code-batch text-code-batch text-on-surface-variant bg-surface-container-high px-2 py-0.5 rounded">
+          Bodega San Gabriel · Villa de Leyva
+        </span>
+</div>
+</div>
+<div class="mt-space-1 max-w-4xl">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary tracking-tight">
+        Registrar Nueva Bebida Artesanal
+      </h1>
+<p class="mt-space-1 font-body-lg text-body-lg text-on-surface-variant">
+        Ingresa los datos comerciales básicos y sensoriales para incorporar una nueva bebida a tu portafolio y posteriormente vincular lotes con trazabilidad analítica. Los campos marcados con (<span class="text-error font-semibold">*</span>) son obligatorios.
+      </p>
+</div>
+</div>
+<!-- Main Layout Grid (Form 65% / Live Preview & Guidance 35%) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-4 items-start pb-space-6">
+<!-- LEFT COLUMN: The Master Form (approx 7.5 of 12 cols = 62.5%) -->
+<form class="lg:col-span-8 flex flex-col gap-space-4" id="productForm" onsubmit="event.preventDefault();">
+<!-- BLOQUE 1: Identidad y Tipología de la Bebida -->
+<section class="bg-surface-container-lowest rounded-xl p-space-4 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-primary-container"></div>
+<div class="flex items-center justify-between pb-space-2 mb-space-3 bg-surface-container-low/40 -mx-space-4 px-space-4 -mt-space-4 pt-space-4 rounded-t-xl">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-code-batch text-code-batch flex items-center justify-center font-bold">1</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Identidad &amp; Tipología de la Bebida</h2>
+<p class="font-label-md text-label-md text-on-surface-variant">Definición de nombre, categoría de origen y presentación artesanal.</p>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider bg-secondary-fixed/20 px-2.5 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_drink</span> Ficha Base
+          </span>
+</div>
+<div class="flex flex-col gap-space-3">
+<!-- Nombre Comercial -->
+<div class="flex flex-col gap-space-05">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between" for="prodName">
+<span>Nombre Comercial de la Bebida <span class="text-error">*</span></span>
+<span class="font-label-md text-label-md text-on-surface-variant font-normal">Máx. 70 caracteres</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">wine_bar</span>
+<input class="w-full h-11 pl-10 pr-4 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all placeholder:text-on-surface-variant/60" id="prodName" placeholder="Ej. Vino Tinto Cabernet Franc Reserva Especial" required="" type="text" value="Cabernet Franc Reserva Privada 2024"/>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Usa el nombre legal o de etiqueta que reconocerán tus clientes y catadores.</span>
+</div>
+<!-- Selector de Tipo de Bebida (Interactive Visual Grid) -->
+<div class="flex flex-col gap-space-1">
+<label class="font-title-md text-title-md text-on-surface">
+              Tipo de Bebida Artesanal <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-2" id="drinkTypeSelector">
+<!-- Vino Tinto (Default active) -->
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="drink_type" type="radio" value="Vino Tinto"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">liquor</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Vino Tinto</span>
+<span class="font-label-md text-label-md opacity-80">Vinícola</span>
+</div>
+</div>
+</label>
+<!-- Vino Blanco -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="drink_type" type="radio" value="Vino Blanco"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">wine_bar</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Vino Blanco</span>
+<span class="font-label-md text-label-md opacity-80">Cepa blanca</span>
+</div>
+</div>
+</label>
+<!-- Vino Rosado -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="drink_type" type="radio" value="Vino Rosado"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">local_florist</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Vino Rosado</span>
+<span class="font-label-md text-label-md opacity-80">Maceración suave</span>
+</div>
+</div>
+</label>
+<!-- Cerveza Artesanal -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="drink_type" type="radio" value="Cerveza Artesanal"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">sports_bar</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Cerveza</span>
+<span class="font-label-md text-label-md opacity-80">Fermentación alta/baja</span>
+</div>
+</div>
+</label>
+<!-- Hidromiel -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="drink_type" type="radio" value="Hidromiel"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">emoji_nature</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Hidromiel</span>
+<span class="font-label-md text-label-md opacity-80">Miel pura</span>
+</div>
+</div>
+</label>
+<!-- Sidra Artesanal -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="drink_type" type="radio" value="Sidra Artesanal"/>
+<div class="p-3 rounded-lg bg-surface-container-low hover:bg-surface-container-high peer-checked:bg-primary peer-checked:text-on-primary transition-all flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary peer-checked:text-on-primary">nutrition</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md leading-tight">Sidra</span>
+<span class="font-label-md text-label-md opacity-80">Manzanas de altura</span>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- Presentación / Formato de Envase con Pills rápidas -->
+<div class="flex flex-col gap-space-1">
+<label class="font-title-md text-title-md text-on-surface" for="formatInput">
+              Presentación / Formato de Envase <span class="text-error">*</span>
+</label>
+<div class="flex flex-wrap items-center gap-2 mb-1" id="formatPills">
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-secondary text-on-secondary shadow-sm transition-all" data-val="Botella 750ml" type="button">
+                Botella 750ml
+              </button>
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all" data-val="Botella 375ml" type="button">
+                Botella 375ml
+              </button>
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all" data-val="Botella 500ml" type="button">
+                Botella 500ml
+              </button>
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all" data-val="Lata 330ml" type="button">
+                Lata 330ml
+              </button>
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all" data-val="Lata 473ml" type="button">
+                Lata 473ml
+              </button>
+<button class="format-pill px-3 py-1 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface hover:bg-surface-container-high transition-all" data-val="Barril Inox 20L" type="button">
+                Barril 20L
+              </button>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">straighten</span>
+<input class="w-full h-11 pl-10 pr-4 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all" id="formatInput" placeholder="Especifica volumen o embalaje especial" type="text" value="Botella 750ml"/>
+</div>
+</div>
+<!-- Estilo o Variedad (Opcional) -->
+<div class="flex flex-col gap-space-05">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between" for="styleInput">
+<span>Estilo o Variedad Específica <span class="text-on-surface-variant font-normal">(Opcional)</span></span>
+<span class="font-label-md text-label-md text-secondary">Ej. Crianza en Roble, Dry Hopped</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">spa</span>
+<input class="w-full h-11 pl-10 pr-4 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all placeholder:text-on-surface-variant/60" id="styleInput" placeholder="Ej. Crianza en Roble Francés, Miel de Páramo Nativa, Stout Imperial" type="text" value="Crianza 14 Meses Roble Francés"/>
+</div>
+</div>
+<!-- Dropzone de Fotografía de la Botella/Etiqueta -->
+<div class="flex flex-col gap-space-05 mt-space-1">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between">
+<span>Fotografía Principal de la Botella o Etiqueta <span class="text-error">*</span></span>
+<span class="font-label-md text-label-md text-on-surface-variant">PNG o JPG · Máx 10 MB</span>
+</label>
+<div class="relative bg-surface-container-low hover:bg-surface-container p-6 rounded-xl flex flex-col md:flex-row items-center gap-space-3 transition-all cursor-pointer group">
+<!-- Preview thumbnail -->
+<div class="relative w-24 h-32 rounded-lg bg-surface-container-lowest overflow-hidden shadow-md flex-shrink-0 flex items-center justify-center">
+<img class="w-full h-full object-cover" data-alt="Editorial bottle photography of artisanal Colombian Cabernet Franc red wine, elegant label titled San Gabriel, warm dark cellar lighting with wood barrel background, golden reflections, photorealistic 8k render." id="previewThumbnail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6uKSuOw_0B5moMij3tflGToZe3QxvgKrCnjsdlFXsDlmAf-5Lz53rI3jkF-mhgVgKo0YjQBPlt_luZdYBMwjM3M6mns-D0j6l4sEkQTc18J9nLBQJ87BxqejKc7e9C5rhGfi17BGxd73MRYxW9MgMwO9ix54s1_o7o8oP2sQcLFGgUJ5nAm2NwGrElsJ9lxnzkBi02YahEANS8LgnjomQLb0yu0FwdnrjzHcuHFAKCRQXQJ__uZwB-Q"/>
+<div class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">change_circle</span>
+</div>
+</div>
+<!-- Action details -->
+<div class="flex flex-col items-center md:items-start text-center md:text-left flex-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="w-8 h-8 rounded-full bg-secondary-fixed/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">add_photo_alternate</span>
+</span>
+<span class="font-title-md text-title-md text-primary">Arrastra la fotografía de la botella</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-3">
+                  Recomendamos fondo neutro o iluminación tenue de cava. La imagen se optimizará automáticamente para catálogos y cartas QR.
+                </p>
+<div class="flex items-center gap-3">
+<button class="px-4 py-2 bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary rounded-lg font-title-md text-title-md shadow-sm transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">file_upload</span>
+                    Explorar archivos
+                  </button>
+<span class="font-code-batch text-code-batch text-on-tertiary-container bg-tertiary-fixed/30 px-2 py-1 rounded">
+                    san-gabriel-cf-2024.png cargado
+                  </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BLOQUE 2: Comercialización, Estado y Notas Sensoriales -->
+<section class="bg-surface-container-lowest rounded-xl p-space-4 shadow-sm relative overflow-hidden">
+<div class="absolute top-0 left-0 w-1.5 h-full bg-secondary"></div>
+<div class="flex items-center justify-between pb-space-2 mb-space-3 bg-surface-container-low/40 -mx-space-4 px-space-4 -mt-space-4 pt-space-4 rounded-t-xl">
+<div class="flex items-center gap-2">
+<span class="w-7 h-7 rounded-full bg-secondary text-on-secondary font-code-batch text-code-batch flex items-center justify-center font-bold">2</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">Comercialización, Estado &amp; Perfil</h2>
+<p class="font-label-md text-label-md text-on-surface-variant">Parámetros de venta directa, habilitación de carta y descriptores de cata.</p>
+</div>
+</div>
+<span class="font-label-md text-label-md text-on-tertiary-container bg-tertiary-fixed/30 px-2.5 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">price_check</span> Distribución
+          </span>
+</div>
+<div class="flex flex-col gap-space-3">
+<!-- Grid 2 Columnas: Precio COP & INVIMA -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-2">
+<!-- Precio Sugerido COP -->
+<div class="flex flex-col gap-space-05">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between" for="priceInput">
+<span>Precio Sugerido al Público <span class="text-error">*</span></span>
+<span class="font-code-batch text-code-batch text-secondary">COP ($)</span>
+</label>
+<div class="relative">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 font-title-md text-title-md font-bold text-primary">$</span>
+<input class="w-full h-11 pl-8 pr-4 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all font-mono" id="priceInput" placeholder="88000" required="" type="number" value="88000"/>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Valor de referencia en carta y tienda online oficial.</span>
+</div>
+<!-- Registro Sanitario INVIMA -->
+<div class="flex flex-col gap-space-05">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between" for="invimaInput">
+<span>Registro Sanitario o Trámite <span class="text-on-surface-variant font-normal">(Opcional)</span></span>
+<span class="font-label-md text-label-md text-on-tertiary-container">INVIMA / Cert. Origen</span>
+</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">badge</span>
+<input class="w-full h-11 pl-10 pr-4 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all font-mono placeholder:text-on-surface-variant/60" id="invimaInput" placeholder="Ej. RS-COL-2026-V889 o En trámite" type="text" value="INVIMA-L-008924-BOY"/>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Genera mayor confianza ante compradores mayoristas.</span>
+</div>
+</div>
+<!-- Estado Comercial Inicial (Radio Cards) -->
+<div class="flex flex-col gap-space-1">
+<label class="font-title-md text-title-md text-on-surface">
+              Estado Comercial Inicial en Plataforma <span class="text-error">*</span>
+</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-2">
+<!-- Activo -->
+<label class="cursor-pointer">
+<input checked="" class="peer sr-only" name="product_status" type="radio" value="ACTIVO"/>
+<div class="p-3.5 rounded-xl bg-surface-container-low peer-checked:bg-tertiary-fixed/30 peer-checked:shadow-sm transition-all flex items-start gap-3">
+<div class="w-5 h-5 rounded-full bg-surface-container-lowest flex items-center justify-center flex-shrink-0 mt-0.5 peer-checked:bg-on-tertiary-container">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">check_circle</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">ACTIVO INMEDIATO</span>
+<span class="font-label-md text-label-md bg-on-tertiary-container text-on-tertiary px-2 py-0.5 rounded-full">Visible</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                      Visible en el catálogo público y habilitado para pedidos de restaurantes y cavas aliadas.
+                    </span>
+</div>
+</div>
+</label>
+<!-- Pausado / Borrador -->
+<label class="cursor-pointer">
+<input class="peer sr-only" name="product_status" type="radio" value="BORRADOR"/>
+<div class="p-3.5 rounded-xl bg-surface-container-low peer-checked:bg-secondary-fixed/40 peer-checked:shadow-sm transition-all flex items-start gap-3">
+<div class="w-5 h-5 rounded-full bg-surface-container-lowest flex items-center justify-center flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">pending</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-title-md text-title-md text-on-surface">BORRADOR / PAUSADO</span>
+<span class="font-label-md text-label-md bg-secondary-container text-on-secondary-container px-2 py-0.5 rounded-full">Oculto</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                      Solo visible en tu panel de bodega para registro de vendimias previas o pruebas de fermentación.
+                    </span>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- Notas de Cata y Perfil Sensorial -->
+<div class="flex flex-col gap-space-05">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between" for="sensoryNotes">
+<span>Notas de Cata &amp; Perfil Sensorial <span class="text-error">*</span></span>
+<span class="font-label-md text-label-md text-on-surface-variant">Guía para sommeliers</span>
+</label>
+<textarea class="w-full p-3.5 bg-surface-container-low text-on-surface rounded-lg font-body-md text-body-md focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary transition-all placeholder:text-on-surface-variant/60 resize-y" id="sensoryNotes" placeholder="Describe las notas aromáticas (ej. frutos rojos maduros, pimienta negra, grafito), estructura en boca, temperatura óptima de servicio y sugerencias de maridaje..." required="" rows="4">Elegante expresión del terroir de Villa de Leyva. En nariz despliega notas de moras silvestres, casis, sutil pimiento asado y toque mineral de pizarra. En boca es untuoso con taninos redondos, acidez vibrante y final prolongado a vainilla y cedro tostado. Servir a 16°-18°C. Maridaje ideal: cordero al romero y quesos de oveja madurados.</textarea>
+</div>
+<!-- Tags o Atributos Especiales Artesanales -->
+<div class="flex flex-col gap-space-1">
+<label class="font-title-md text-title-md text-on-surface flex items-center justify-between">
+<span>Atributos Distintivos de Elaboración</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Selecciona los que apliquen</span>
+</label>
+<div class="flex flex-wrap gap-2" id="attributeTags">
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value="Cosecha Manual"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">pan_tool</span> Cosecha Manual
+                </span>
+</label>
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value="Crianza en Roble"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">nature</span> Roble Francés
+                </span>
+</label>
+<label class="cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox" value="Edición Limitada"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">stars</span> Edición Limitada
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" type="checkbox" value="Sin Sulfitos Añadidos"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">eco</span> Sin Sulfitos Añadidos
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" type="checkbox" value="Fermentación Espontánea"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">bubble_chart</span> Levadura Nativa
+                </span>
+</label>
+<label class="cursor-pointer">
+<input class="sr-only peer" type="checkbox" value="Orgánico Certificado"/>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full font-label-md text-label-md bg-surface-container-low text-on-surface peer-checked:bg-primary-container peer-checked:text-on-primary transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[16px]">workspace_premium</span> Cultivo Orgánico
+                </span>
+</label>
+</div>
+</div>
+</div>
+</section>
+<!-- Botonera de Acción Destacada -->
+<div class="bg-surface-container-lowest rounded-xl p-space-3 shadow-md flex flex-col sm:flex-row items-center justify-between gap-space-2 sticky bottom-4 z-30">
+<button class="w-full sm:w-auto px-5 py-3 rounded-lg text-on-surface-variant hover:text-error hover:bg-error-container/20 transition-colors font-title-md text-title-md flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">close</span>
+          Descartar Cambios
+        </button>
+<div class="flex flex-col sm:flex-row items-center gap-3 w-full sm:w-auto">
+<button class="w-full sm:w-auto px-5 py-3 rounded-lg bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors font-title-md text-title-md flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px] text-secondary">save</span>
+            Guardar como Borrador
+          </button>
+<button class="w-full sm:w-auto px-7 py-3 rounded-lg bg-primary-container text-on-primary hover:bg-primary transition-colors font-title-md text-title-md min-h-touch-min shadow-md flex items-center justify-center gap-2 group" type="submit">
+<span>Guardar Bebida y Crear Primer Lote</span>
+<span class="material-symbols-outlined text-[20px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</form>
+<!-- RIGHT COLUMN: Live Interactive Preview & Cellar Guidance (approx 4 of 12 cols = 33%) -->
+<aside class="lg:col-span-4 flex flex-col gap-space-4 lg:sticky lg:top-20">
+<!-- SIMULADOR EN VIVO DE FICHA DE CATÁLOGO -->
+<div class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden relative">
+<!-- Live badge pill -->
+<div class="bg-primary text-on-primary px-space-3 py-2 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary-fixed animate-ping"></span>
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Previsualización en Vivo</span>
+</div>
+<span class="font-code-batch text-code-batch opacity-80">Catálogo Público / Cava</span>
+</div>
+<!-- Simulated Card Body -->
+<div class="p-space-3 flex flex-col">
+<!-- Card Image Edge-to-Edge inside container -->
+<div class="relative h-64 rounded-xl overflow-hidden bg-surface-container-high shadow-inner group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial bottle photography of artisanal Colombian Cabernet Franc red wine, elegant label titled San Gabriel, warm dark cellar lighting with wood barrel background, golden reflections, photorealistic 8k render." id="liveImagePreview" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyDnvsUgJJo8rYPK-ED35Fob3nE92IPl40iNzU37lHVDyKp7BMjFUr7zibQs27x8G1ORgSBFlQa_OGgz37SGFd02_EAKvipseoxCMZaotyy5F94OFW_bl_mNy3pivvBUxzTWYtxCibKlZRYi7jC5NABp4hdSAqddoIVM7vCCkkk40kaR08XePxZ5g6ot13mYr8td6OpmExPqhpQCAbs9WcRATUZxbroAp5COFaORqy-fDbGPD8IJ75Ag"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-transparent to-transparent"></div>
+<!-- Type Pill floating on top -->
+<div class="absolute top-3 left-3">
+<span class="bg-surface/90 backdrop-blur-md text-primary font-label-md text-label-md px-3 py-1 rounded-full shadow-sm font-semibold flex items-center gap-1" id="liveTypeBadge">
+<span class="material-symbols-outlined text-[14px]">wine_bar</span>
+                Vino Tinto
+              </span>
+</div>
+<!-- Status Indicator -->
+<div class="absolute top-3 right-3">
+<span class="bg-on-tertiary-container text-on-tertiary font-label-md text-label-md px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1" id="liveStatusBadge">
+<span class="material-symbols-outlined text-[13px]">visibility</span>
+                Público
+              </span>
+</div>
+<!-- Overlay text at bottom of image -->
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-primary">
+<span class="font-code-batch text-code-batch bg-primary-container/80 backdrop-blur-md px-2 py-0.5 rounded" id="liveFormatBadge">
+                Botella 750ml
+              </span>
+<span class="font-label-md text-label-md text-tertiary-fixed-dim flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">pin_drop</span> Villa de Leyva
+              </span>
+</div>
+</div>
+<!-- Product Details in Live Card -->
+<div class="mt-space-2 flex flex-col gap-space-05">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-wider">Bodega Artesanal San Gabriel</span>
+<h3 class="font-headline-sm text-headline-sm text-primary leading-tight line-clamp-2" id="liveTitlePreview">
+              Cabernet Franc Reserva Privada 2024
+            </h3>
+<p class="font-code-batch text-code-batch text-on-surface-variant italic" id="liveStylePreview">
+              Crianza 14 Meses Roble Francés
+            </p>
+<div class="flex items-baseline justify-between mt-2 pt-2 border-t border-surface-container-high">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Precio al Público</span>
+<span class="font-headline-md text-headline-md text-primary font-bold" id="livePricePreview">
+                  $ 88.000 <span class="font-label-md text-label-md text-on-surface-variant font-normal">COP</span>
+</span>
+</div>
+<span class="font-code-batch text-code-batch text-on-tertiary-container bg-tertiary-fixed/30 px-2 py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">format_image_left</span>
+                Verificado
+              </span>
+</div>
+<!-- Traceability Pending Seal Banner -->
+<div class="mt-3 p-2.5 rounded-lg bg-secondary-fixed/20 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px] flex-shrink-0">qr_code_2</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-secondary-fixed leading-tight">Pendiente de Lote</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Al guardar, podrás asociar la primera vendimia con trazabilidad hash.</span>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low px-space-3 py-2 text-center font-label-md text-label-md text-on-surface-variant">
+          Así verán tu botella restaurantes, hoteles y consumidores en Entre Copas.
+        </div>
+</div>
+<!-- TARJETA DE CONSEJOS PARA EL BODEGUERO / CERVECERO -->
+<div class="bg-surface-container-lowest rounded-xl p-space-3 shadow-sm flex flex-col gap-space-1">
+<div class="flex items-center gap-2 text-primary mb-1">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">lightbulb</span>
+</span>
+<h4 class="font-title-md text-title-md">¿Por qué registrar tu bebida?</h4>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Cada producto creado en el panel actúa como el contenedor genético de tu marca. Desde esta ficha podrás:
+        </p>
+<ul class="flex flex-col gap-2 mt-1">
+<li class="flex items-start gap-2 font-body-md text-body-md text-on-surface">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px] mt-0.5">check_circle</span>
+<span>Generar códigos QR dinámicos para cada añada o lote de cocción artesanal.</span>
+</li>
+<li class="flex items-start gap-2 font-body-md text-body-md text-on-surface">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px] mt-0.5">check_circle</span>
+<span>Habilitar la venta B2B directa con hoteles boutique de Boyacá y Bogotá sin intermediarios abusivos.</span>
+</li>
+<li class="flex items-start gap-2 font-body-md text-body-md text-on-surface">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px] mt-0.5">check_circle</span>
+<span>Acceder a reportes de rendimiento y control analítico de mermas por fermentación.</span>
+</li>
+</ul>
+</div>
+<!-- PROTOCOLO DE CUSTODIA & SELLO DE ORIGEN -->
+<div class="bg-surface-container-low rounded-xl p-space-3 shadow-sm flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[28px] flex-shrink-0">workspace_premium</span>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-primary">Custodia de Denominación Boyacense</span>
+<p class="font-label-md text-label-md text-on-surface-variant mt-1">
+            Los datos ingresados están amparados bajo el protocolo Vitis-Chain v2.4 de Entre Copas, garantizando la autoría e historia productiva de la Bodega Artesanal San Gabriel.
+          </p>
+</div>
+</div>
+</aside>
+</div>
+<!-- Inline Micro-Interactions Script for Live Preview Updates -->
+<script>
+    (function() {
+      const prodNameInput = document.getElementById('prodName');
+      const liveTitlePreview = document.getElementById('liveTitlePreview');
+      
+      const styleInput = document.getElementById('styleInput');
+      const liveStylePreview = document.getElementById('liveStylePreview');
+      
+      const priceInput = document.getElementById('priceInput');
+      const livePricePreview = document.getElementById('livePricePreview');
+
+      const formatInput = document.getElementById('formatInput');
+      const liveFormatBadge = document.getElementById('liveFormatBadge');
+      const formatPills = document.querySelectorAll('.format-pill');
+
+      const drinkTypeRadios = document.querySelectorAll('input[name="drink_type"]');
+      const liveTypeBadge = document.getElementById('liveTypeBadge');
+
+      const statusRadios = document.querySelectorAll('input[name="product_status"]');
+      const liveStatusBadge = document.getElementById('liveStatusBadge');
+
+      // Sync Title
+      if (prodNameInput && liveTitlePreview) {
+        prodNameInput.addEventListener('input', (e) => {
+          liveTitlePreview.textContent = e.target.value.trim() || 'Nombre de la Bebida';
+        });
+      }
+
+      // Sync Style
+      if (styleInput && liveStylePreview) {
+        styleInput.addEventListener('input', (e) => {
+          liveStylePreview.textContent = e.target.value.trim() || 'Estilo de elaboración artesanal';
+        });
+      }
+
+      // Sync Price formatted COP
+      if (priceInput && livePricePreview) {
+        priceInput.addEventListener('input', (e) => {
+          const num = parseFloat(e.target.value);
+          if (!isNaN(num)) {
+            livePricePreview.innerHTML = `$ ${num.toLocaleString('es-CO')} <span class="font-label-md text-label-md text-on-surface-variant font-normal">COP</span>`;
+          } else {
+            livePricePreview.innerHTML = `$ 0 <span class="font-label-md text-label-md text-on-surface-variant font-normal">COP</span>`;
+          }
+        });
+      }
+
+      // Sync Format Pills
+      formatPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          formatPills.forEach(p => {
+            p.classList.remove('bg-secondary', 'text-on-secondary');
+            p.classList.add('bg-surface-container-low', 'text-on-surface');
+          });
+          pill.classList.add('bg-secondary', 'text-on-secondary');
+          pill.classList.remove('bg-surface-container-low', 'text-on-surface');
+          const val = pill.getAttribute('data-val');
+          if (formatInput) formatInput.value = val;
+          if (liveFormatBadge) liveFormatBadge.textContent = val;
+        });
+      });
+
+      if (formatInput && liveFormatBadge) {
+        formatInput.addEventListener('input', (e) => {
+          liveFormatBadge.textContent = e.target.value.trim() || 'Formato Especial';
+        });
+      }
+
+      // Sync Drink Type
+      drinkTypeRadios.forEach(radio => {
+        radio.addEventListener('change', (e) => {
+          if (liveTypeBadge) {
+            let iconName = 'wine_bar';
+            if (e.target.value.includes('Cerveza')) iconName = 'sports_bar';
+            if (e.target.value.includes('Hidromiel')) iconName = 'emoji_nature';
+            if (e.target.value.includes('Sidra')) iconName = 'nutrition';
+            if (e.target.value.includes('Rosado')) iconName = 'local_florist';
+            if (e.target.value.includes('Tinto')) iconName = 'liquor';
+            
+            liveTypeBadge.innerHTML = `<span class="material-symbols-outlined text-[14px]">${iconName}</span> ${e.target.value}`;
+          }
+        });
+      });
+
+      // Sync Status
+      statusRadios.forEach(radio => {
+        radio.addEventListener('change', (e) => {
+          if (liveStatusBadge) {
+            if (e.target.value === 'ACTIVO') {
+              liveStatusBadge.className = 'bg-on-tertiary-container text-on-tertiary font-label-md text-label-md px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1';
+              liveStatusBadge.innerHTML = '<span class="material-symbols-outlined text-[13px]">visibility</span> Público';
+            } else {
+              liveStatusBadge.className = 'bg-secondary-container text-on-secondary-container font-label-md text-label-md px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1';
+              liveStatusBadge.innerHTML = '<span class="material-symbols-outlined text-[13px]">visibility_off</span> Privado / Borrador';
+            }
+          }
+        });
+      });
+
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_6px_rgba(88,17,26,0.03)] py-space-2 px-space-4"><div class="w-full flex flex-col md:flex-row items-center justify-between gap-space-1 text-on-surface-variant"><div class="flex items-center gap-space-2"><span class="font-label-md text-label-md">Entre Copas © 2025 • Infraestructura de Origen Certificado</span><span class="font-code-batch text-code-batch text-on-tertiary-container bg-tertiary-fixed/30 px-2 py-0.5 rounded">Protocolo Vitis-Chain v2.4</span></div><div class="flex items-center gap-space-3"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" data-path="soporte-tecnico" href="#"><span class="material-symbols-outlined text-[16px]">support_agent</span>Soporte Enológico &amp; Técnico</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" data-path="estado-trazabilidad" href="#"><span class="material-symbols-outlined text-[16px]">hub</span>Estado de Sincronización</a></div></div></footer></div></body></html>

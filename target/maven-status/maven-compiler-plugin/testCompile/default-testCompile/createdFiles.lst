@@ -1,0 +1,10 @@
+com\entrecopas\lote\LoteServiceTest.class
+com\entrecopas\producto\ProductoControllerTest.class
+com\entrecopas\disponibilidad\DisponibilidadServiceTest.class
+com\entrecopas\financiero\FinancieroServiceTest.class
+com\entrecopas\lote\LoteControllerTest.class
+com\entrecopas\financiero\FinancieroControllerTest.class
+com\entrecopas\usuario\DemoAuthControllerTest.class
+com\entrecopas\config\GlobalModelAdviceTest.class
+com\entrecopas\producto\ProductoServiceTest.class
+com\entrecopas\disponibilidad\DisponibilidadControllerTest.class

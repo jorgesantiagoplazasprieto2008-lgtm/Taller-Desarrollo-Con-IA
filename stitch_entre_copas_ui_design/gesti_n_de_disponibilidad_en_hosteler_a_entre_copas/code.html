@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "secondary-container": "#fe932c", "surface-dim": "#d0dbed", "outline": "#877272", "on-secondary-container": "#663500", "on-error": "#ffffff", "inverse-on-surface": "#eaf1ff", "surface-container": "#e6eeff", "on-primary-fixed": "#40000b", "on-tertiary-container": "#45a75f", "primary-container": "#58111a", "on-tertiary-fixed-variant": "#005323", "on-secondary": "#ffffff", "on-primary": "#ffffff", "on-background": "#121c2a", "on-error-container": "#93000a", "primary-fixed-dim": "#ffb3b4", "inverse-primary": "#ffb3b4", "on-secondary-fixed-variant": "#6e3900", "on-tertiary-fixed": "#00210a", "secondary": "#904d00", "secondary-fixed": "#ffdcc3", "on-surface": "#121c2a", "inverse-surface": "#27313f", "primary": "#390009", "surface": "#f8f9ff", "tertiary": "#001e08", "surface-container-high": "#dee9fc", "on-secondary-fixed": "#2f1500", "error": "#ba1a1a", "outline-variant": "#dac0c0", "surface-container-highest": "#d9e3f6", "surface-bright": "#f8f9ff", "surface-container-low": "#eff4ff", "on-primary-fixed-variant": "#7b2c32", "on-tertiary": "#ffffff", "tertiary-container": "#003514", "surface-variant": "#d9e3f6", "error-container": "#ffdad6", "surface-container-lowest": "#ffffff", "on-primary-container": "#db767b", "on-surface-variant": "#554242", "secondary-fixed-dim": "#ffb77d", "background": "#f8f9ff", "primary-fixed": "#ffdada", "tertiary-fixed": "#95f8a7", "tertiary-fixed-dim": "#79db8d", "surface-tint": "#994348" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-2": "16px", "space-1": "8px", "gutter-mobile": "16px", "gutter-desktop": "24px", "max-width": "1280px", "space-4": "32px", "space-3": "24px", "space-05": "4px", "touch-min": "44px", "space-6": "48px" }, "fontFamily": { "body-lg": [ "Inter" ], "headline-md": [ "Playfair Display" ], "headline-sm": [ "Playfair Display" ], "label-md": [ "Inter" ], "headline-lg": [ "Playfair Display" ], "headline-lg-mobile": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "body-md": [ "Inter" ], "display-lg-mobile": [ "Playfair Display" ], "title-md": [ "Inter" ], "code-batch": [ "Inter" ] }, "fontSize": { "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "600" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "500" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "34px", "fontWeight": "600" } ], "display-lg": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "20px", "fontWeight": "400" } ], "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "title-md": [ "16px", { "lineHeight": "24px", "fontWeight": "600" } ], "code-batch": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "500" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-desktop flex items-center justify-between gap-space-2"><div class="flex items-center gap-space-2 min-w-0"><img alt="Brand logo. - Primary color: #58111a
+- Font: playfairDisplay
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3cB0Lao1stq7OmXCyAGabLh7jIBpjt56pOJGsP8g-3vn2OEIIyKq3ab1_UtpjEYKXk6Kjf6SkrUqORvHYoprirmt6E-F8imm0PvR6_eIdK8kMJduVgyK8S_SwQmpmVZZu1aGyLdEshlZRvmioYjnwcktE476xaHjc8PrPeGgKRKHeCD1E19sPpJjiY4-bHHbwH2XNWC1h-GWQ1GjSz5-fRZongZmShpchegYOesd1umog55Esf07gwQ"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-primary truncate leading-tight">Entre Copas</span><span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider hidden sm:block">Hostelería &amp; Cavas Aliadas</span></div></div><div class="flex items-center gap-space-3"><div class="hidden md:flex items-center gap-space-1 px-space-2 py-1 rounded-full bg-surface-container-low text-tertiary"><span class="material-symbols-outlined text-[16px]">verified</span><span class="font-label-md text-label-md">Aliado Gastronómico Verificado</span></div><div class="flex items-center gap-space-2"><div class="text-right hidden sm:block"><div class="font-title-md text-title-md text-on-surface leading-tight">Sommelier Principal</div><div class="font-label-md text-label-md text-on-surface-variant">Cava &amp; Selección</div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-72 bg-surface-container-lowest z-40 flex flex-col justify-between py-space-3 shadow-[0_1px_8px_rgba(0,0,0,0.03)] overflow-y-auto"><div class="flex flex-col gap-space-3 px-space-3"><div class="px-space-2 py-space-2 rounded-xl bg-surface-container-low"><div class="font-title-md text-title-md text-on-surface font-bold leading-snug">Restaurante El Rincón Gourmet</div><div class="font-body-md text-body-md text-on-surface-variant">Sede Carrera 7 (Bogotá)</div><div class="mt-space-1 inline-flex items-center gap-1 font-code-batch text-code-batch text-secondary"><span class="material-symbols-outlined text-[14px]">storefront</span><span>CÓD: ECG-BOG-07</span></div></div><nav class="flex flex-col gap-space-05" data-active-classes="bg-primary-container text-on-primary font-bold rounded-lg shadow-sm"><a class="flex items-center min-h-touch-min px-space-2 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="carta-y-disponibilidad" href="#"><span class="font-title-md text-title-md">Carta &amp; Disponibilidad</span></a><a class="flex items-center min-h-touch-min px-space-2 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="explorar-bodegas-y-catalogo" href="#"><span class="font-title-md text-title-md">Explorar Bodegas &amp; Catálogo</span></a><a class="flex items-center min-h-touch-min px-space-2 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="historial-de-pedidos" href="#"><span class="font-title-md text-title-md">Historial de Pedidos</span></a><a class="flex items-center min-h-touch-min px-space-2 py-2 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="perfil-del-local" href="#"><span class="font-title-md text-title-md">Perfil del Local</span></a></nav></div><div class="px-space-3"><div class="p-space-2 rounded-xl bg-surface-container-low flex flex-col gap-1"><div class="flex items-center gap-1 text-tertiary font-label-md text-label-md"><span class="material-symbols-outlined text-[15px]">shield</span><span>Trazabilidad Activa</span></div><div class="font-body-md text-body-md text-on-surface-variant">Lotes verificados con denominación de origen y custodia térmica.</div></div></div></aside><div class="pl-72 flex flex-col min-h-screen"><main class="w-full flex-1 pt-16 px-gutter-desktop pb-space-6 bg-surface"><div class="flex flex-col w-full">
+<div class="flex flex-col gap-space-4 max-w-[1280px] mx-auto w-full">
+<header class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-3 bg-surface-container-lowest p-space-4 rounded-xl shadow-sm">
+<div class="flex flex-col gap-space-1 max-w-3xl">
+<div class="flex flex-wrap items-center gap-space-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">wine_bar</span>
+<span class="font-title-md text-title-md text-on-surface font-semibold">Restaurante El Rincón Gourmet</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="font-body-md text-body-md">Sede Carrera 7 # 45-12, Bogotá</span>
+<span class="inline-flex items-center gap-1 ml-1 px-2 py-0.5 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[13px] text-tertiary-fixed-dim fill-1" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            Servicio de Cava Activo Hoy
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight font-serif mt-1">
+          Gestión de Disponibilidad en Barra
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl leading-relaxed">
+          Marca en tiempo real las bebidas que tienes disponibles para consumo hoy. Los cambios se reflejan inmediatamente en el catálogo y fichas de trazabilidad públicas consultadas por comensales.
+        </p>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-space-2 self-start lg:self-end">
+<button class="min-h-touch-min px-4 py-2 rounded-lg bg-surface-container-lowest text-secondary shadow-sm hover:bg-surface-container-low transition-colors font-title-md text-title-md flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">qr_code_2</span>
+<span>Descargar QR Carta</span>
+</button>
+<button class="min-h-touch-min px-5 py-2 rounded-lg bg-primary text-on-primary shadow-sm hover:bg-primary-container transition-colors font-title-md text-title-md flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+<span>+ Explorar Catálogo</span>
+</button>
+</div>
+</header>
+<section class="grid grid-cols-1 sm:grid-cols-3 gap-space-3">
+<div class="bg-surface-container-lowest p-space-3 rounded-xl shadow-sm flex items-start gap-space-2">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[26px]">inventory_2</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Bebidas en Carta Activa</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-md text-headline-md text-on-surface" id="kpi-active-count">6</span>
+<span class="font-body-md text-body-md text-on-surface-variant">de 8 seleccionadas</span>
+</div>
+<span class="font-label-md text-label-md text-secondary mt-0.5">2 en reposo / agotadas</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-3 rounded-xl shadow-sm flex items-start gap-space-2">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[26px]">verified</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Lotes Auditados en Cava</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-md text-headline-md text-on-surface">142</span>
+<span class="font-body-md text-body-md text-on-surface-variant">unidades seguras</span>
+</div>
+<span class="font-label-md text-label-md text-on-tertiary-fixed-variant mt-0.5 flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">lock</span> Custodia térmica activa
+          </span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-3 rounded-xl shadow-sm flex items-start gap-space-2">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[26px]">touch_app</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Consultas de Clientes Hoy</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-md text-headline-md text-on-surface">47</span>
+<span class="font-body-md text-body-md text-on-surface-variant">lecturas en mesa</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant mt-0.5">Pico: 13:45 (Servicio Almuerzo)</span>
+</div>
+</div>
+</section>
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-4 items-start">
+<div class="xl:col-span-8 flex flex-col gap-space-3">
+<div class="bg-surface-container-lowest p-space-3 rounded-xl shadow-sm flex flex-col md:flex-row items-stretch md:items-center justify-between gap-space-2">
+<div class="relative flex-1 min-w-0">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">search</span>
+<input class="w-full h-11 pl-10 pr-4 rounded-lg bg-surface-container-low text-on-surface placeholder:text-on-surface-variant text-body-md focus:outline-none focus:bg-surface-container-lowest" id="search-beverages" placeholder="Buscar bebida por nombre, bodega, cepa o estilo en tu carta..." type="text"/>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<button class="min-h-touch-min px-3 py-2 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface font-title-md text-title-md flex items-center gap-1.5 transition-colors">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span>Filtrar</span>
+</button>
+<span class="text-on-surface-variant/40">|</span>
+<span class="font-label-md text-label-md text-on-surface-variant px-1">8 Ref.</span>
+</div>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar">
+<button class="filter-pill min-h-touch-min px-4 py-2 rounded-full font-title-md text-title-md bg-primary text-on-primary whitespace-nowrap shadow-sm" data-category="all">
+            Todas las referencias (8)
+          </button>
+<button class="filter-pill min-h-touch-min px-4 py-2 rounded-full font-title-md text-title-md bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant whitespace-nowrap" data-category="vino">
+            Vinos de Autor (4)
+          </button>
+<button class="filter-pill min-h-touch-min px-4 py-2 rounded-full font-title-md text-title-md bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant whitespace-nowrap" data-category="cerveza">
+            Cervezas Artesanales (3)
+          </button>
+<button class="filter-pill min-h-touch-min px-4 py-2 rounded-full font-title-md text-title-md bg-surface-container-lowest hover:bg-surface-container-low text-on-surface-variant whitespace-nowrap" data-category="otros">
+            Hidromieles y Sidras (1)
+          </button>
+</div>
+<div class="flex flex-col gap-space-2" id="beverage-list">
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3" data-category="vino" data-id="item-1">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Artisanal red wine glass bottle labeled Malbec Gran Reserva 2024 resting on cellar wood barrel with golden warm natural light and burgundy wax seal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKDXY30pHFInX9C1QryVzdl7EGbRd95wklH_ralB22fNsiueZmhSwMl5c3SSxNgzC8oBkjKjjIp5L2KptKzP5yiHagoF5bqTI1p6r05vXYLjB6635nxqrZ1IhiOKfQNdGK_aZOx-8GkFI3l6PYyeMTu8PGJdv8f_7czokgrhLFC-W6yoM-84Em7DGcvSRPSfgwthVC83BlRetiWYOb80KQM2sCBMOAJy2I_D6HZ8QioVVSAdpmSxqJCA"/>
+<span class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary font-label-md text-[10px] px-1 py-0.5 rounded leading-none">DO</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Vino Tinto Malbec Gran Reserva 2024</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-A109</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Bodega Artesanal San Gabriel — Villa de Leyva, Boyacá
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Botella 750ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-primary font-bold">$ 65.000 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-on-tertiary-fixed-variant font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">inventory</span>
+<span>12 botellas disponibles</span>
+</span>
+</div>
+<div class="impact-indicator text-on-tertiary-fixed-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span>Visible en el catálogo público y mapa para este local (En Carta Hoy)</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="true" class="toggle-switch relative inline-flex items-center min-w-[130px] h-11 px-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-1', 'Vino Tinto Malbec Gran Reserva')" role="switch" type="button">
+<span class="toggle-indicator flex items-center gap-1 mr-auto pl-2 font-semibold">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check</span> DISPONIBLE
+                </span>
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-on-tertiary-fixed-variant shadow-md transform translate-x-0 transition-transform"></span>
+</button>
+</div>
+</div>
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3 opacity-80" data-category="cerveza" data-id="item-2">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Golden IPA craft beer can with condensation drips and botanical hop design set against rustic cellar stone background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBdW2xzqwbnkNypkGq6hNeDdQ61VMvZa2EGZ-2qP9hU6QMW2qUtAQUqQlrv9BkGspOD2n4QxBQ1Rbznp-znyZmVtgKZgH0fSQyfczRNmdi6GtsoekDailL92IDMRj6FBpULMsK8tnqphTa1sikTYl4Q0kS5d7nDZ1CejnUwGBZDApsSrOLhtg1Er82yGwA8qt7-tgm1TjkTR6VQrlAJWFGqVG6f86KSx_MvyvWLd3CpPvrirVcUUEBrg"/>
+<span class="absolute top-1 left-1 bg-surface-dim text-on-surface-variant font-label-md text-[10px] px-1 py-0.5 rounded leading-none">IPA</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Cerveza Artesanal IPA Dorada Montaña</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-C002</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Cervecería de la Montaña — Duitama, Boyacá
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Lata 330ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">$ 14.500 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-error font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>0 unidades (Reposición en camino)</span>
+</span>
+</div>
+<div class="impact-indicator text-on-surface-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+<span>Oculto para los clientes en este local (Agotado)</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="false" class="toggle-switch relative inline-flex items-center min-w-[145px] h-11 px-2 rounded-full bg-surface-container-high text-on-surface-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-2', 'Cerveza Artesanal IPA Dorada')" role="switch" type="button">
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-outline-variant shadow-md transform -translate-x-0 transition-transform"></span>
+<span class="toggle-indicator flex items-center gap-1 ml-auto pr-2 font-semibold">
+<span class="material-symbols-outlined text-[16px]">close</span> NO DISPONIBLE
+                </span>
+</button>
+</div>
+</div>
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3" data-category="otros" data-id="item-3">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Traditional artisan mead glass bottle with amber liquid honey glow and wooden wax stopper resting beside wild herbs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXvbJN4Yz-GAHy5NkzmeBzILPYTXkLswLo0wVxdhhLiS3daWhaMrjtrjypLSQVsw0HFySpuomn4yx6sY9x12_tkzMykLafuyC3m92-6gzgffFTP9Fn6ySwuxthjhve2uXKSCJcGxBx4_lD-ozzDYwWG4YS3VkfUtWNqNelPw7rqf2eFlQS65ptFvi_lQPjdPhWtZZ-ylO_7KuAVywQAqd1ZWzSYKrtBf5y1PsA4qQbKi1V0c8u4YY1TA"/>
+<span class="absolute bottom-1 right-1 bg-secondary text-on-secondary font-label-md text-[10px] px-1 py-0.5 rounded leading-none">MEAD</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Hidromiel Especiada Roble Ancestral</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-H015</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Colmenares &amp; Vinos Andinos — Subachoque, Cundinamarca
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Botella 500ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-primary font-bold">$ 38.000 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-on-tertiary-fixed-variant font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">ac_unit</span>
+<span>8 botellas en cava climatizada</span>
+</span>
+</div>
+<div class="impact-indicator text-on-tertiary-fixed-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span>Visible en el catálogo público para este local</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="true" class="toggle-switch relative inline-flex items-center min-w-[130px] h-11 px-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-3', 'Hidromiel Especiada Roble Ancestral')" role="switch" type="button">
+<span class="toggle-indicator flex items-center gap-1 mr-auto pl-2 font-semibold">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check</span> DISPONIBLE
+                </span>
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-on-tertiary-fixed-variant shadow-md transform translate-x-0 transition-transform"></span>
+</button>
+</div>
+</div>
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3" data-category="vino" data-id="item-4">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Elegant chilled white wine bottle with misted glass and gold foil cap labeled Sauvignon Blanc Altura Reserva 2023" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlEgNcw_DWRA_sZK5xXAQtPMJ8DGWKpklQ_K3w4hQmAT2TX5OxFogNZfUWVIOV0i67RjsNI-fAZm5V1vxJDP5FFnt1KFdWFSVg9lfCsjZez-iB67oPLUJSHiGINkYcxJHgLSrzK2BagurFJ-uL2AMZwImv57B2cz0DBTUSjZ7rKubVWUyIrlIy3AkQBJrak7W70pSRT8-TViQ5GEhtle5aZKsao_TwOQvFUOy_QRzTyl7xBzJD_66qtg"/>
+<span class="absolute bottom-1 right-1 bg-tertiary text-on-tertiary font-label-md text-[10px] px-1 py-0.5 rounded leading-none">DO</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Sauvignon Blanc Altura Reserva 2023</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-S032</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Viñedos del Cañón — Santander
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Botella 750ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-primary font-bold">$ 58.000 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-on-tertiary-fixed-variant font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">inventory</span>
+<span>15 botellas</span>
+</span>
+</div>
+<div class="impact-indicator text-on-tertiary-fixed-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span>Visible en el catálogo público para este local</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="true" class="toggle-switch relative inline-flex items-center min-w-[130px] h-11 px-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-4', 'Sauvignon Blanc Altura Reserva')" role="switch" type="button">
+<span class="toggle-indicator flex items-center gap-1 mr-auto pl-2 font-semibold">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check</span> DISPONIBLE
+                </span>
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-on-tertiary-fixed-variant shadow-md transform translate-x-0 transition-transform"></span>
+</button>
+</div>
+</div>
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3" data-category="cerveza" data-id="item-5">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Dark glass craft stout beer bottle with roasted coffee beans and dark chocolate malt aroma art on label" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCATkG38LcR3TETKJOZsFvuo3IXOhxwjCFa9rM8dwrXEKETr7hvnolqr7Yag90c8ZlAeaI2pX7kzbFhB692mEFsWfkHL3sD96L0h35gP16m4GXv5SeiqcAXGPCaTQncTVCu0a3Gi5VR69pUdg_JD0mANVZ1pehFa_NZI9IiGpivVWKp1S9yQmR3wYvWmL6r1KJ80XQsB8n__Ohzkp4UxBLDPjonHcd3_bs2sTAIQwUJ_34wGbIEeJBm-g"/>
+<span class="absolute top-1 left-1 bg-surface-dim text-on-surface-variant font-label-md text-[10px] px-1 py-0.5 rounded leading-none">STOUT</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Cerveza Stout Imperial Café Tostado</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-ST88</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Cervecería San Pedro — Quindío
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Botella 330ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-primary font-bold">$ 16.000 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-on-tertiary-fixed-variant font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">inventory</span>
+<span>24 botellas</span>
+</span>
+</div>
+<div class="impact-indicator text-on-tertiary-fixed-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span>Visible en el catálogo público para este local</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="true" class="toggle-switch relative inline-flex items-center min-w-[130px] h-11 px-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-5', 'Cerveza Stout Imperial Café Tostado')" role="switch" type="button">
+<span class="toggle-indicator flex items-center gap-1 mr-auto pl-2 font-semibold">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check</span> DISPONIBLE
+                </span>
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-on-tertiary-fixed-variant shadow-md transform translate-x-0 transition-transform"></span>
+</button>
+</div>
+</div>
+<div class="beverage-card bg-surface-container-lowest rounded-xl p-space-3 shadow-sm hover:shadow-md transition-shadow flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-3 opacity-80" data-category="otros" data-id="item-6">
+<div class="flex items-center gap-space-3 min-w-0">
+<div class="relative w-16 h-20 rounded-lg overflow-hidden bg-surface-container-high shrink-0">
+<img class="w-full h-full object-cover" data-alt="Sparkling artisan cider bottle with bubbles and crisp wild apples illustration on artisanal textured paper label" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7oYJ2s6PVXEF24xo_fhyR8hneE0A6zNAOiErIMFBFq2u1OROzFdnD7Ux3_O7iQEv6ARUOSwuBC2UUxkUXdC8fEZRSR2IZHp3kMUyC2Tan9KEIJuNZYH4KGnOgFWxMhluAcgCeVlgXyc1vPnrPkwqabTusf_0scX4Gw6eFpcZIHM69Lu9a4At437tKQijJrD9Mczl4btueJaZ61zyc9VPbZ4sNjuf72nxmxxpQwvlN9YcX_EhZsaTlhg"/>
+<span class="absolute bottom-1 right-1 bg-surface-dim text-on-surface-variant font-label-md text-[10px] px-1 py-0.5 rounded leading-none">SIDRA</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-serif truncate">Sidra Espumosa Manzana Silvestre</h2>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-code-batch text-code-batch text-on-surface-variant">Lote: EC-2026-PR04-SD09</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface-variant truncate">
+                  Pomar de la Sabana — Cundinamarca
+                </div>
+<div class="flex items-center gap-3 mt-1 text-on-surface-variant flex-wrap">
+<span class="font-label-md text-label-md text-secondary">Botella 750ml</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">$ 32.000 COP</span>
+<span class="text-on-surface-variant/30">•</span>
+<span class="stock-status font-body-md text-body-md text-secondary font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">pause_circle</span>
+<span>Pausado temporalmente por bodega</span>
+</span>
+</div>
+<div class="impact-indicator text-on-surface-variant font-label-md text-label-md mt-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+<span>Oculto para los clientes en este local</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 flex sm:flex-col items-center sm:items-end justify-between w-full sm:w-auto pt-2 sm:pt-0">
+<button aria-checked="false" class="toggle-switch relative inline-flex items-center min-w-[145px] h-11 px-2 rounded-full bg-surface-container-high text-on-surface-variant font-title-md text-title-md transition-colors focus:outline-none" onclick="toggleItem(this, 'item-6', 'Sidra Espumosa Manzana Silvestre')" role="switch" type="button">
+<span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-outline-variant shadow-md transform -translate-x-0 transition-transform"></span>
+<span class="toggle-indicator flex items-center gap-1 ml-auto pr-2 font-semibold">
+<span class="material-symbols-outlined text-[16px]">close</span> NO DISPONIBLE
+                </span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="xl:col-span-4 flex flex-col gap-space-3 sticky top-20">
+<div class="bg-surface-container-lowest p-space-4 rounded-xl shadow-md flex flex-col gap-space-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">visibility</span>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Vista Previa Comensal</h3>
+</div>
+<span class="font-label-md text-label-md text-tertiary-fixed-dim font-semibold uppercase tracking-wider flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim animate-ping"></span>
+              En Vivo
+            </span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Así ven los comensales tu carta en <em>Entre Copas</em> al escanear los QR de mesa en Restaurante El Rincón Gourmet.
+          </p>
+<div class="bg-surface-container-low p-4 rounded-xl flex flex-col gap-3 shadow-inner">
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-primary"></div>
+<span class="font-headline-sm text-[16px] text-primary font-serif font-bold">El Rincón Gourmet</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant bg-surface-container-lowest px-2 py-0.5 rounded">Mesa 4</span>
+</div>
+<div class="flex items-center gap-2 bg-surface-container-lowest p-2 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">verified</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Bebidas disponibles en barra hoy:</span>
+<span class="font-title-md text-title-md text-primary font-bold ml-auto" id="preview-count">6</span>
+</div>
+<div class="flex flex-col gap-2 max-h-56 overflow-y-auto pr-1" id="live-preview-list">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-xs text-on-surface">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim shrink-0"></div>
+<span class="font-body-md text-body-md truncate">Vino Tinto Malbec 2024</span>
+</div>
+<span class="font-title-md text-title-md font-bold text-primary shrink-0">$65.000</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-xs text-on-surface">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim shrink-0"></div>
+<span class="font-body-md text-body-md truncate">Hidromiel Especiada Roble</span>
+</div>
+<span class="font-title-md text-title-md font-bold text-primary shrink-0">$38.000</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-xs text-on-surface">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim shrink-0"></div>
+<span class="font-body-md text-body-md truncate">Sauvignon Blanc Altura</span>
+</div>
+<span class="font-title-md text-title-md font-bold text-primary shrink-0">$58.000</span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-lowest shadow-xs text-on-surface">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-2 h-2 rounded-full bg-tertiary-fixed-dim shrink-0"></div>
+<span class="font-body-md text-body-md truncate">Stout Imperial Café</span>
+</div>
+<span class="font-title-md text-title-md font-bold text-primary shrink-0">$16.000</span>
+</div>
+</div>
+<div class="pt-2 flex items-center justify-between text-on-surface-variant font-label-md text-label-md">
+<span>Trazabilidad garantizada por lote</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">workspace_premium</span>
+</div>
+</div>
+<a class="min-h-touch-min w-full py-2.5 px-4 rounded-lg bg-surface-container-lowest hover:bg-surface-container-low text-primary font-title-md text-title-md text-center flex items-center justify-center gap-2 transition-colors shadow-sm" href="#">
+<span>Ver como cliente público</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+</div>
+<div class="bg-surface-container-low p-space-3 rounded-xl flex flex-col gap-2">
+<div class="flex items-center gap-2 text-primary font-title-md text-title-md font-semibold">
+<span class="material-symbols-outlined text-[20px]">info</span>
+<span>Política de Disponibilidad</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Al marcar un lote como "No disponible", se pausará temporalmente en la carta digital sin borrar sus notas de cata ni la calificación previa registrada en el historial del restaurante.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed bottom-6 right-6 z-50 bg-primary text-on-primary px-4 py-3 rounded-xl shadow-xl flex items-center gap-3 transition-transform duration-300 transform translate-y-0 opacity-100 max-w-md" id="sync-toast">
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed/30 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim">check</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-title-md text-title-md font-semibold leading-tight">Disponibilidad Sincronizada</span>
+<span class="font-body-md text-[13px] opacity-90 truncate">Reflejado en el catálogo público y códigos QR de mesa.</span>
+</div>
+<button class="ml-2 text-on-primary/70 hover:text-on-primary p-1" onclick="dismissToast()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+<script>
+  function toggleItem(btn, itemId, itemName) {
+    const isCurrentlyActive = btn.getAttribute('aria-checked') === 'true';
+    const newStatus = !isCurrentlyActive;
+    btn.setAttribute('aria-checked', newStatus.toString());
+
+    const card = btn.closest('.beverage-card');
+    const impactEl = card.querySelector('.impact-indicator');
+    const toast = document.getElementById('sync-toast');
+    const previewCount = document.getElementById('preview-count');
+    const kpiCount = document.getElementById('kpi-active-count');
+
+    if (newStatus) {
+      btn.className = "toggle-switch relative inline-flex items-center min-w-[130px] h-11 px-2 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed-variant font-title-md text-title-md transition-colors focus:outline-none";
+      btn.innerHTML = `
+        <span class="toggle-indicator flex items-center gap-1 mr-auto pl-2 font-semibold">
+          <span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check</span> DISPONIBLE
+        </span>
+        <span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-on-tertiary-fixed-variant shadow-md transform translate-x-0 transition-transform"></span>
+      `;
+      card.classList.remove('opacity-80');
+      if (impactEl) {
+        impactEl.className = "impact-indicator text-on-tertiary-fixed-variant font-label-md text-label-md mt-1.5 flex items-center gap-1";
+        impactEl.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span><span>Visible en el catálogo público y mapa para este local (En Carta Hoy)</span>`;
+      }
+    } else {
+      btn.className = "toggle-switch relative inline-flex items-center min-w-[145px] h-11 px-2 rounded-full bg-surface-container-high text-on-surface-variant font-title-md text-title-md transition-colors focus:outline-none";
+      btn.innerHTML = `
+        <span class="toggle-thumb inline-block w-8 h-8 rounded-full bg-outline-variant shadow-md transform -translate-x-0 transition-transform"></span>
+        <span class="toggle-indicator flex items-center gap-1 ml-auto pr-2 font-semibold">
+          <span class="material-symbols-outlined text-[16px]">close</span> NO DISPONIBLE
+        </span>
+      `;
+      card.classList.add('opacity-80');
+      if (impactEl) {
+        impactEl.className = "impact-indicator text-on-surface-variant font-label-md text-label-md mt-1.5 flex items-center gap-1";
+        impactEl.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-outline"></span><span>Oculto para los clientes en este local (Agotado)</span>`;
+      }
+    }
+
+    const activeToggles = document.querySelectorAll('.toggle-switch[aria-checked="true"]').length;
+    if (previewCount) previewCount.textContent = activeToggles;
+    if (kpiCount) kpiCount.textContent = activeToggles;
+
+    showToast(`✓ Disponibilidad de ${itemName} actualizada`);
+  }
+
+  function showToast(customMsg) {
+    const toast = document.getElementById('sync-toast');
+    if (!toast) return;
+    if (customMsg) {
+      const msgEl = toast.querySelector('.text-\\[13px\\]');
+      if (msgEl) msgEl.textContent = customMsg;
+    }
+    toast.classList.remove('translate-y-24', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    clearTimeout(window._toastTimeout);
+    window._toastTimeout = setTimeout(() => {
+      dismissToast();
+    }, 4000);
+  }
+
+  function dismissToast() {
+    const toast = document.getElementById('sync-toast');
+    if (!toast) return;
+    toast.classList.remove('translate-y-0', 'opacity-100');
+    toast.classList.add('translate-y-24', 'opacity-0');
+  }
+
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(p => {
+        p.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        p.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+      });
+      pill.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+      pill.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+      const cat = pill.getAttribute('data-category');
+      const cards = document.querySelectorAll('.beverage-card');
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-category') === cat) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  });
+
+  const searchInput = document.getElementById('search-beverages');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.beverage-card');
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        if (text.includes(query)) {
+          card.classList.remove('hidden');
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+    });
+  }
+</script></main><footer class="w-full bg-surface-container-low py-space-3 shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="w-full px-gutter-desktop flex flex-col md:flex-row items-center justify-between gap-space-2 text-on-surface-variant"><div class="flex items-center gap-space-1 font-body-md text-body-md"><span class="material-symbols-outlined text-primary text-[18px]">verified_user</span><span>Entre Copas • Protocolo Oficial de Trazabilidad y Autenticidad en Cavas &amp; Gastronomía</span></div><div class="font-label-md text-label-md text-on-surface-variant tracking-wider uppercase">© 2024 Red Aliada Hostelería • Bogotá, Colombia</div></div></footer></div></body></html>
